@@ -8,6 +8,22 @@
   Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
 */
 
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-color: #fcf3f6;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c292b;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #2c292b;
+}
+
 .main {
   width: 100vw;
   min-height: 100vh;
@@ -65,9 +81,25 @@
   opacity: 0.15;
 }
 
+.layout {
+  margin: 3rem auto;
+  width: 90%;
+  max-width: 40rem;
+}
+
 @media screen and (max-width: 640px) {
   .main {
     padding: 0;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    color: #2c292b;
+  }
+
+  h2 {
+    font-size: 1rem;
+    color: #2c292b;
   }
 }
 
@@ -105,9 +137,9 @@
   @apply mt-5 text-lg text-gray-600 sm:text-xl max-w-2xl;
 }
 
-.search_input {
-  /* @apply block w-full rounded-md border border-gray-200 bg-white py-2.5 font-satoshi pl-5 pr-12 text-sm shadow-lg font-medium; */
-}
+/* .search_input { */
+/* @apply block w-full rounded-md border border-gray-200 bg-white py-2.5 font-satoshi pl-5 pr-12 text-sm shadow-lg font-medium; */
+/* }
 
 .copy_btn {
   @apply w-7 h-7 rounded-full bg-white/10 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur flex justify-center items-center cursor-pointer;
@@ -122,22 +154,22 @@
 }
 
 /* Feed Component */
-.feed {
+/* .feed {
   @apply mt-16 mx-auto w-full max-w-xl flex justify-center items-center flex-col gap-2;
-}
+} */
 
 /* Form Component */
-.form_textarea {
+/* .form_textarea {
   @apply w-full flex rounded-lg h-[200px] mt-2 p-3 text-sm text-gray-500 outline-0;
 }
 
 .form_input {
   @apply w-full flex rounded-lg mt-2 p-3 text-sm text-gray-500 outline-0;
-}
+} */
 
 /* Nav Component */
 .logo_text {
-  /* @apply max-sm:hidden font-satoshi font-semibold text-lg text-black tracking-wide; */
+  @apply max-sm:hidden font-semibold text-lg text-black tracking-wide;
 }
 
 .dropdown {
@@ -153,9 +185,9 @@
   @apply flex-1 break-inside-avoid rounded-lg border border-gray-300 bg-white/20 bg-clip-padding p-6 pb-4 backdrop-blur-lg backdrop-filter md:w-[360px] w-full h-fit;
 }
 
-.flex-center {
+/* .flex-center {
   @apply flex justify-center items-center;
-}
+} */
 
 .flex-start {
   @apply flex justify-start items-start;
