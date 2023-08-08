@@ -13,7 +13,7 @@ const Form = (props) => {
 
     const enteredTitleRef = titleInputRef.current.value;
     const enteredImageRef = imageInputRef.current.value;
-    const enteredaddressRef = imageInputRef.current.value;
+    const enteredaddressRef = addressInputRef.current.value;
     const enteredDescriptionRef = descriptionInputRef.current.value;
 
     const newMeetUpData = {
@@ -23,7 +23,7 @@ const Form = (props) => {
       description: enteredDescriptionRef,
     };
 
-    props.onAddMeetup(MeetUp);
+    props.onAddMeetup(newMeetUpData);
   };
 
   return (
