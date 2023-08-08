@@ -7,12 +7,17 @@ const initialFavoriteContext = createContext({
 const favoriteContext = () => {
   const [favoriteMeetUp, setFavoriteMeetUp] = useState([]);
 
-  const addFavoriteHandler = () => {
+  const addFavoriteMeetUp = () => {
     setFavoriteMeetUp((prevFavoriteMeetUp) => {
       return prevFavoriteMeetUp.concat(favoriteMeetUp);
     });
   };
 
+  const removeFavoriteMeetUp = (meetUpId) => {
+    setFavoriteMeetUp((prevFavoriteMeetUp) => {
+      return prevFavoriteMeetUp.filter((meetUp) => meetUp.id !== meetUpId);
+    });
+  };
   const updatedFavoriteContext = {
     favorite: favoriteMeetUp,
     totalFavorite: favoriteMeetUp.length,
