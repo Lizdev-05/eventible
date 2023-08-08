@@ -1,7 +1,7 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import styles from "./Form.module.css";
 import Card from "../../ui/Card";
-import MeetUp from "../meetUps/MeetUp";
+
 const Form = (props) => {
   const titleInputRef = useRef();
   const imageInputRef = useRef();
