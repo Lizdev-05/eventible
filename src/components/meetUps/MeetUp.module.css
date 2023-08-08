@@ -44,3 +44,10 @@
 .actions button:active {
   background-color: #ffe2ed;
 }
+
+@media screen and (max-width: 640px) {
+  .image {
+    width: 100%;
+    height: 10rem;
+  }
+}
