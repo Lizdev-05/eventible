@@ -18,6 +18,10 @@ const favoriteContext = () => {
       return prevFavoriteMeetUp.filter((meetUp) => meetUp.id !== meetUpId);
     });
   };
+
+  const meetUpFavoriteHandle = (meetUpId) => {
+    return favoriteMeetUp.some((meetUp) => meetUp.id === meetUpId);
+  };
   const updatedFavoriteContext = {
     favorite: favoriteMeetUp,
     totalFavorite: favoriteMeetUp.length,
