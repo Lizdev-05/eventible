@@ -14,7 +14,6 @@ const MeetUp = (props) => {
       favoriteCtx.addFavorite({
         id: props.id,
         title: props.title,
-
         image: props.image,
         address: props.address,
         description: props.description,
