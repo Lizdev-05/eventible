@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { FavoriteContextProvider } from "./store/favoriteContext";
+import { FavoriteContext } from "./store/favoriteContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -11,11 +11,11 @@ root.render(
     <div className="main">
       <div className="gradient"></div>
     </div>
-    <FavoriteContextProvider>
+    <FavoriteContext>
       <main className="app">
         <App />
       </main>
-    </FavoriteContextProvider>
+    </FavoriteContext>
   </React.StrictMode>
 );
 

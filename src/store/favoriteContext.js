@@ -1,16 +1,16 @@
 import React, { createContext, useState } from "react";
 
-const initialFavoriteContext = createContext({
+const InitialFavoriteContext = createContext({
   favorite: [],
   totalFavorite: 0,
   addFavorite: (favoriteMeetUp) => {},
   removeFavorite: (meetUpId) => {},
   meetUpIsFavorite: (meetUpId) => {},
 });
-export const FavoriteContextProvider = (props) => {
+export const FavoriteContext = (props) => {
   const [favoriteMeetUp, setFavoriteMeetUp] = useState([]);
 
-  const addFavoriteMeetUp = () => {
+  const addFavoriteMeetUp = (favoriteMeetUp) => {
     setFavoriteMeetUp((prevFavoriteMeetUp) => {
       return prevFavoriteMeetUp.concat(favoriteMeetUp);
     });
@@ -34,10 +34,10 @@ export const FavoriteContextProvider = (props) => {
   };
 
   return (
-    <FavoriteContextProvider.Provider value={updatedFavoriteContext}>
+    <InitialFavoriteContext.Provider value={updatedFavoriteContext}>
       {props.children}
-    </FavoriteContextProvider.Provider>
+    </InitialFavoriteContext.Provider>
   );
 };
 
-export default initialFavoriteContext;
+export default InitialFavoriteContext;
