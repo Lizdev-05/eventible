@@ -1,70 +1,165 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://lizdev.com/">
+    Lizdev
+  </a>
 
-## Available Scripts
+  <h5 align="center">  
+    <br />
+    <a href="https://okoyecharles.com/" target="_blank">View Live</a>
+    ·
+    <a href="https://github.com/Lizdev-05/eventible/issues/new" target="_blank">Report Bug</a>
+    ·
+    <a href="https://github.com/Lizdev-05/eventible/issues/new" target="_blank">Request Feature</a>
+  </h5>
+</div>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#eventible">Eventible</a>
+      <ul>
+        <li><a href="#live-link">Live Link</a></li>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#clone-locally">Clone Locally</a></li>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#testing">Testing</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-### `npm start`
+<!-- ABOUT THE PROJECT -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Eventible
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Eventible is a website specializing in event management and ticketing. The platform provides users with the ability to explore, organize, and publicize local events...
 
-### `npm test`
+<div align="center">
+  <img  width="1000" alt="event" src="./src/assets/event.png">
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run build`
+### Live link
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Here is the [live link](https://eventible.netlify.app/) of app
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Main Technologies:**
 
-### `npm run eject`
+- ![React Js](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg?style=for-the-badge&logo=react&logoColor=white)
+- ![Tailwind](https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg?style=for-the-badge&logo=tailwind&logoColor=white)
+- ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- GETTING STARTED -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Clone-Locally
 
-## Learn More
+- Enter this url: [git@github.com:Lizdev-05/eventible.git](git@github.com:Lizdev-05/eventible.git) in your web browser.
+- Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
+- Select download Zip option from drop down menu.
+- Once the download is complete you will be able to access my project locally.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Node package manager (latest version)
+  - Firstly install **node.js** then run the code below
+  ```sh
+  npm install npm@latest -g
+  ```
+- Project dependencies
+  - Install all dependencies for running the project
+  ```sh
+  npm install
+  ```
 
-### Code Splitting
+### Testing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+In order to run tests for this project make sure you have installed all previously mentioned [prerequisites](#prerequisites) section, then run the code below.
 
-### Analyzing the Bundle Size
+- Run all tests
+  - This should run all tests using 'react-test-renderer'
+  ```sh
+  npm run test
+  ```
+- Get a coverage report
+  - Add a `--coverage` flag to the test script in [package.json](package.json).
+  ```json
+  "scripts": {
+    ...
+    "test": "react-scripts test --coverage",
+  }
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Making a Progressive Web App
+<!-- CONTRIBUTING -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
-### Deployment
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run build` fails to minify
+<!-- LICENSE -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+
+Distributed under the [MIT](./LICENSE) License.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+### Oyinlade Ojesanmi
+
+ <div align="center">
+ <a href="https://www.linkedin.com/in/oyinlade-ojesanmi/"><img src="https://img.shields.io/badge/linkedin-%230070f3.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"></a> 
+ <a href="https://twitter.com/ojesanmi_oyin"><img src="https://img.shields.io/badge/Twitter-%230070f3.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="Twitter"></a> 
+ <a href="https://github.com/Lizdev-05"><img src="https://img.shields.io/badge/github-%230070f3.svg?style=for-the-badge&logo=github&logoColor=white" alt="Github"></a> 
+ 
+ <a href="mailto:ojesanmioyinlade@gmail.com"><img src="https://img.shields.io/badge/Gmail-0070f3?style=for-the-badge&logo=gmail&logoColor=white" alt="Linkedin"></a>
+ </div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+- [Vercel Hosting](https://vercel.com/)
+- [Img Shields](https://shields.io)
+- [React Icons](https://react-icons.github.io/react-icons/search)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
