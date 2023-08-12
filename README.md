@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://lizdev.com/">
+  <a href="https://lizdev.tech/">
     Lizdev
   </a>
 
