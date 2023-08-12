@@ -134,7 +134,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the [MIT](./LICENSE) License.
+Distributed under the [MIT](/LICENSE) License.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
