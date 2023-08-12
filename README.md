@@ -75,7 +75,7 @@ Here is the [live link](https://eventible.netlify.app/) of the app
 
 ### Clone-Locally
 
-- Enter this url: [git@github.com:Lizdev-05/eventible.git](git@github.com:Lizdev-05/eventible.git) in your web browser.
+- Enter this url: [https://git@github.com:Lizdev-05/eventible.git](https://git@github.com:Lizdev-05/eventible.git) in your web browser.
 - Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
 - Select the download Zip option from the drop-down menu.
 - Once the download is complete you will be able to access my project locally.
