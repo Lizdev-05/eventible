@@ -34,6 +34,7 @@
         <li><a href="#clone-locally">Clone Locally</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#testing">Testing</a></li>
+        <li><a href="#future-feture">Future Feature</a></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
@@ -104,13 +105,22 @@ In order to run tests for this project make sure you have installed all previous
   npm run test
   ```
 - Get a coverage report
+
   - Add a `--coverage` flag to the test script in [package.json](package.json).
+
   ```json
   "scripts": {
     ...
     "test": "react-scripts test --coverage",
   }
   ```
+
+  ### Future Feature
+
+  In the future, I hope to:
+
+  - Add functionalities for admin to delete event
+  - Add functionalities for admin to edit event
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
