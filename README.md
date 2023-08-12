@@ -7,9 +7,9 @@
     Lizdev
   </a>
 
-  <h5 align="center">  
+  <h5 align="center"> 
     <br />
-    <a href="https://okoyecharles.com/" target="_blank">View Live</a>
+    <a href="https://eventible.netlify.app/" target="_blank">View Live</a>
     ·
     <a href="https://github.com/Lizdev-05/eventible/issues/new" target="_blank">Report Bug</a>
     ·
