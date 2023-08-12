@@ -66,6 +66,7 @@ Here is the [live link](https://eventible.netlify.app/) of the app
 - ![React Js](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white)
 - ![Tailwind](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?logo=tailwind-css&logoColor=white&style=flat)
 - ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+- ![FIREBASE](https://img.shields.io/badge/-Firebase-white?logo=firebase&logoColor=FFCA28&style=flat)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
