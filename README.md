@@ -57,14 +57,14 @@ Eventible is a website specializing in event management and ticketing. The platf
 
 ### Live link
 
-Here is the [live link](https://eventible.netlify.app/) of app
+Here is the [live link](https://eventible.netlify.app/) of the app
 
 ### Built With
 
 **Main Technologies:**
 
-- ![React Js](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg?style=for-the-badge&logo=react&logoColor=white)
-- ![Tailwind](https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg?style=for-the-badge&logo=tailwind&logoColor=white)
+- ![React Js](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white)
+- ![Tailwind](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?logo=tailwind-css&logoColor=white&style=flat)
 - ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -77,7 +77,7 @@ Here is the [live link](https://eventible.netlify.app/) of app
 
 - Enter this url: [git@github.com:Lizdev-05/eventible.git](git@github.com:Lizdev-05/eventible.git) in your web browser.
 - Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
-- Select download Zip option from drop down menu.
+- Select the download Zip option from the drop-down menu.
 - Once the download is complete you will be able to access my project locally.
 
 ### Prerequisites
