@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import InitialFavoriteContext from "../../store/favoriteContext";
+import styles from "./Nav.module.css";
 
 const Nav = () => {
   const favoriteCtx = useContext(InitialFavoriteContext);
@@ -12,7 +13,8 @@ const Nav = () => {
         <Link to="/">All MeetUps</Link>
         <Link to="/addNewMeetUp">Add New</Link>
         <Link to="/favorites">
-          Favorites <span className="badge">{favoriteCtx.totalFavorite}</span>
+          Favorites{" "}
+          <span className={styles.badge}>{favoriteCtx.totalFavorite}</span>
         </Link>
       </div>
     </nav>
